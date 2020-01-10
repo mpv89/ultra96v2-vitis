@@ -1,2 +1,4 @@
 # Exclude build products
-tmp/
+/tmp/
+/firmware/
+/petalinux/
