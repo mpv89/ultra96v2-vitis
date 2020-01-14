@@ -2229,14 +2229,14 @@ CONFIG_run-postinsts=y
 #
 # xrt
 #
-# CONFIG_xrt is not set
-# CONFIG_xrt-dev is not set
+CONFIG_xrt=y
+CONFIG_xrt-dev=y
 # CONFIG_xrt-dbg is not set
 
 #
 # zocl
 #
-# CONFIG_zocl is not set
+CONFIG_zocl=y
 # CONFIG_zocl-dev is not set
 # CONFIG_zocl-dbg is not set
 
@@ -4140,7 +4140,7 @@ CONFIG_hellopm=y
 #
 # packagegroup-petalinux-opencv 
 #
-# CONFIG_packagegroup-petalinux-opencv is not set
+CONFIG_packagegroup-petalinux-opencv=y
 # CONFIG_packagegroup-petalinux-opencv-dev is not set
 # CONFIG_packagegroup-petalinux-opencv-dbg is not set
 
@@ -4243,6 +4243,8 @@ CONFIG_imagefeature-hwcodecs=y
 # CONFIG_iw is not set
 # CONFIG_lmsensors-sensorsdetect is not set
 # CONFIG_nano is not set
+CONFIG_opencl-clhpp-dev=y
+CONFIG_opencl-headers-dev=y
 # CONFIG_packagegroup-base-extended is not set
 # CONFIG_packagegroup-petalinux-96boards-sensors is not set
 # CONFIG_packagegroup-petalinux-ultra96-webapp is not set

@@ -10,4 +10,4 @@ launch_runs impl_1 -to_step write_bitstream -jobs 8
 wait_on_run impl_1
 
 # Export the hardware XSA
-write_hw_platform -fixed -force -include_bit -file ultra96v2.xsa
+write_hw_platform -force -include_bit -file ultra96v2.xsa
